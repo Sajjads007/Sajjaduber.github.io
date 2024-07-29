@@ -1,0 +1,1694 @@
+*{
+    margin: 0;
+    font-family: 'Uber Move', Arial, Helvetica, sans-serif;
+    padding: 0;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+a:hover {
+    opacity: .9;
+}
+a p {
+    color: black;
+}
+header {
+    width: 100%;
+    height:8vh;
+    background: black;
+   
+}
+header div.main {
+    display: flex;
+    justify-content: space-between;
+}
+section.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 23px;
+    margin-right: 15px;
+}
+header ul h1::first-letter{
+    font-size: 31px;
+    font-weight:300;
+}
+header div.left ul {
+    display: flex;
+    gap: 10px; 
+}
+header div.left ul li{
+    padding-top: 6px;
+}
+header div.left ul li button {
+    padding:8px 10px;
+    border-radius: 18px;
+    background: black;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+header div.left ul li button:hover{
+    background: rgb(56, 56, 56);
+    transition: .4s;
+    cursor: pointer;
+}
+header div.left {
+    padding-top:10px;
+}
+header div.right ul{
+    display: flex;
+    gap: 10px;
+}
+header div.right {
+    padding-top:10px;
+}
+header div.right ul li{
+    padding-top: 6px;
+}
+header div.right ul li button:hover{
+    background: rgb(56, 56, 56);
+    transition: .4s;
+    cursor: pointer;
+}
+header div.right ul li button {
+    padding:8px 10px;
+    border-radius: 18px;
+    background: black;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+header div.right ul li button.language {
+    padding:8px 10px 8px 27px;
+    background-image: url(images/globe.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 5px center;
+
+}
+header div.right ul li button.signup {
+    color: black;
+    background: white;
+    padding: 9px 11px;
+    font-size: 15px;
+}
+section#spotlight {
+    height: 85vh;
+    background: black;
+}
+section#spotlight div.main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+}
+section.wrapper2 {
+    max-width: 1165px;
+    margin: 0 auto;
+}
+section#spotlight div.left {
+    padding-top:156px;
+}
+section#spotlight div.left h1 {
+    color: white;
+}
+section#spotlight div.left p {
+    color: white;
+}
+section#spotlight div.left h1 {
+    margin-bottom:33px;
+    font-size: 52px;
+}
+section#spotlight div.left p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+section#spotlight div.left input {  
+    height:48px;
+    width:390px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+section#spotlight div.left input.place {
+    margin-bottom: 10px;
+    background-image: url(images/send.png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: 351px center;
+}
+section#spotlight div.left input::placeholder {
+    font-size: 17px;
+    padding-left: 40px;
+}
+section#spotlight div.left button {
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height:20px;
+    margin-top:25px;
+    border-radius: 8px;
+    border: none;
+    background: white;
+}
+section#spotlight div.left div.line {
+    border-left:1px solid white;
+    height: 50px;
+    width:1px;
+    position: absolute;
+    left:21%;
+    top:54%;
+}
+section#spotlight div.right{
+    width: 558px;
+    
+
+}
+section#spotlight div.right img {
+   width: 100%;
+}
+section#about {
+    height: 216vh;
+}
+section#about div.top,.middle,.bottom{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    gap: 143px;
+}
+section#about div.top div.left {
+    width:558px;
+    padding-top: 65px;
+}
+section#about div.top div.left img {
+    width:100%;
+}
+section#about div.top div.right{
+    padding-top: 155px;
+}
+section#about div.top div.right h2,div.middle div.left h2 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 35px;
+}
+section#about div.top div.right p,div.middle div.left p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 24px;
+    opacity: .9;
+}
+section#about div.top div.right span {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 35px;
+}
+section#about div.top div.right span a{
+    border-bottom: 1px solid rgb(161, 159, 159);
+}
+section#about div.top div.right span a:hover{
+    border-bottom: 1px solid black;
+}
+section#about div.top div.right button,div.middle div.left button{
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight:600;
+    line-height:20px;
+    border-radius: 8px;
+    border: none;
+    background: black;
+    color: white;   
+}
+section#about div.middle div.left span {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 35px;
+}
+section#about div.middle div.left h2 {
+    opacity: .8;
+}
+section#about div.middle div.left span a{
+    border-bottom: 1px solid rgb(161, 159, 159);
+}
+section#about div.middle div.left span a:hover{
+    border-bottom: 1px solid black;
+}
+section#about div.middle {
+    padding-top: 79px;
+}
+
+section#about div.middle div.right {
+    width: 558px;
+}
+section#about div.middle div.right img {
+    width:100%;
+} 
+section#about div.middle div.left {
+    padding-top:115px;
+}
+section#about div.bottom div.left {
+    width:558px;
+}
+section#about div.bottom div.left img {
+    width:100%;
+}
+section#about div.bottom div.right h2{
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+section#about div.bottom div.right p {
+    font-size: 16px;
+    line-height:24px;
+    font-weight: normal;
+
+}
+section#about div.bottom div.right button {
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight:600;
+    line-height:20px;
+    border-radius: 8px;
+    border: none;
+    background: black;
+    color: white; 
+}
+section#about button:hover {
+    opacity: .8;
+}
+section#about div.bottom {
+    padding-top:32px;
+    height: 600px;
+}
+section#about div.bottom div.right {
+    padding-top: 157px;
+    
+}
+section#about div.bottom div.right h2 {
+    margin-bottom:27px;
+}
+section#about div.bottom div.right p {
+    margin-bottom:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 24px;
+    opacity: .9;
+}
+section#download {
+    background: #f6f6f6;
+    height: 400px;
+}
+section#download div.head {
+    padding-top: 65px;
+}
+section#download div.head h2{
+    font-size: 36px;
+}
+section#download div.link {
+    display: flex;
+    gap: 37px;
+    margin-top:38px;
+}
+section#download div.link div.uber_link,div.drive_link{
+    width: 556px;
+    height: 202px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+section#download div.link div.uber_link:hover {
+    transform:scale(1.02);
+    transition: .2s;
+}
+section#download div.link div.image {
+    width:150px;
+    height: 150px;
+    padding: 26px;
+}
+section#download div.link div.image img {
+    width:100%;
+}
+section#download div.link span {
+    margin-right: 37px;
+}
+section#download div.link span p {
+    font-size: 17px;
+}
+section#download div.link img.right_arrow{
+    width: 29px;
+}
+section#download div.link div.drive_link:hover {
+    transform:scale(1.02);
+    transition: .2s;
+}
+footer{
+    background: black;
+    height: 99vh;
+}
+footer a{
+    color: white;
+}
+footer div.footer_uber a {
+    font-size: 24px;
+    color: white;
+    
+}
+footer div.footer_uber{
+    padding-top: 104px;
+    margin-bottom:41px;
+}
+footer div.visit {
+    height: 63px;
+    display: inline-block;
+    font-size: 17px;
+}
+footer div.visit:hover {
+    box-shadow: inset 0px -9px 0px -8px white;
+}
+footer div.list {
+    margin-top:44px;
+    display: flex;
+    gap: 190px;
+}
+footer div.list h3{
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: white;
+}
+footer div.list ul li {
+    font-size: 15px;
+    line-height: 37px;
+    font-weight: normal;
+}
+footer div.arrow img.fixed_up_arrow {
+    width:29px;
+    height: 27px;
+}
+footer div.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 22px;
+    bottom: 13px;
+    width: 50px;
+    height: 50px;
+    border-radius:30px;
+    background: #efeded;
+}
+footer div.details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1190px;
+    margin: 0 auto;
+    margin-top: 57px;
+    align-items: center;
+    gap: 390px;
+    margin-bottom: 60px;
+}
+footer div.details div.left {
+    display: flex;
+    gap: 60px;
+}
+footer div.details div.left button {
+    padding: 24px 24px;
+    border-radius: 12px;
+    background: black;
+    border: none;
+
+}
+footer div.details div.left button:hover{
+    background: rgb(56, 56, 56);
+    transition: .5s;
+    cursor: pointer;
+    
+}
+footer div.details div.left button.face {
+    background-image: url(images/facebook.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer div.details div.left button.twit {
+    background-image: url(images/twitter.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer div.details div.left button.yout {
+    background-image: url(images/youtube.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer div.details div.left button.link {
+    background-image: url(images/linkdin.png);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer div.details div.left button.inst {
+    background-image: url(images/instagram.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer div.details div.right {
+    display: flex;
+}
+footer div.details div.right button {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 7px;
+}
+footer div.details div.right button:hover{
+    background:rgb(56, 56, 56);
+}
+footer div.details div.right button.lang {
+    padding: 8px 12px 8px 38px;
+    background-image: url(images/globe.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 11px center;
+}
+footer div.details div.right button.place{
+    padding: 8px 13px 8px 35px;
+    background-image: url(images/location.png);
+    background-size: 16px;
+    background-position: 12px center;
+    background-repeat: no-repeat;
+}
+footer div.appstore div.store{
+    display: flex;
+
+}
+footer div.appstore div.store img.apple_store {
+    width:140px;
+    height:41px;
+}
+footer div.appstore div.store img.google_store {
+    width: 140px;
+    height: 40px;
+}
+footer div.copyright div.full {
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    padding-top: 54px;
+    opacity: .6;
+}
+footer div.copyright div.full small {
+    font-size: 13px;
+    word-spacing: 2px;
+}
+footer div.copyright ul {
+    display: flex;
+    gap: 26px;
+    font-size: 13px;
+}
+
+/* Responsive */
+@media all and (max-width:1875px){
+    section#spotlight div.right {
+        width: 511px;
+    }
+    section#about {
+        height: 222vh;
+    }
+    footer {
+        height: 106vh;
+    }
+    section#spotlight div.left div.line{
+        display: none;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1440px){
+    section.wrapper {
+        max-width: 1157px;
+        margin: 0 auto;
+    }
+    section#spotlight div.right {
+        width: 498px;
+    }
+    section#about {
+        height: 222vh;
+    }
+    footer {
+        height: 107vh;
+    }
+}
+@media screen and (min-width:1080px) and (max-width:1279px){
+    footer {
+        height: 107vh;
+    }
+    footer div.details { 
+        width: 1080px;
+        gap: 285px;
+    }
+    footer div.copyright div.full {
+        justify-content: space-evenly;
+    }
+    section#spotlight div.right {
+        width: 476px;
+    }
+    section#about div.top div.left {
+        width: 500px;
+    }
+    section#about div.middle div.right {
+        width: 500px;
+    }
+    section#about div.bottom div.left {
+        width: 500px;
+    }
+    section.wrapper {
+        max-width: 934px;
+    }
+    section.wrapper2 {
+        max-width: 1009px;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 53px;
+        margin-bottom: 21px;
+    }
+    section#about div.top div.right {
+        padding-top: 93px;
+    }
+    section#about div.top, .middle, .bottom {
+        gap: 75px;
+    }
+}
+@media screen and (min-width:980px) and (max-width:1079px){
+    footer div.arrow{
+        display: none;
+    }
+    footer div.details {
+        width: 980px;
+        gap: 210px;
+    }
+    section.wrapper {
+        max-width: 815px;
+    }
+    section#spotlight div.right {
+        width: 423px;
+    }
+    section#spotlight div.left {
+        padding-top: 48px;
+    }
+    section#spotlight div.left h1 {
+        margin-bottom: 13px;
+        font-size: 45px;
+    }
+    section#about div.top div.left {
+        width: 400px;
+    }
+    section#about div.middle div.right {
+        width: 400px;
+    }
+    section#about div.bottom div.left {
+        width: 400px;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 44px;
+        margin-bottom: 18px;
+    }
+    section#about div.top div.right span {
+        margin-top: 13px;
+    }
+    section#about div.middle div.left span {
+        margin-top: 13px;
+    }
+
+    section#about div.bottom div.right h2 {
+        font-size: 33px;
+        line-height: 36px;
+    }
+    section#about div.bottom div.right p {
+        margin-bottom: 14px;
+        line-height: 22px;
+    }
+    section#about div.bottom div.right h2 {
+        margin-bottom: 15px;
+    }
+    footer div.copyright div.full {
+        justify-content: space-around;
+    }
+    section.wrapper2 {
+        max-width: 893px;
+        margin: 0 auto;
+    }
+    section#about div.top, .middle, .bottom {
+        gap: 28px;
+    }
+    footer {
+        height: 113vh;
+    }
+}
+@media screen and (min-width:768px) and (max-width:979px){
+    footer div.arrow {
+        display: none;
+    }
+    footer div.details { 
+        width: 600px;
+        align-items: center;
+        gap: 8px;
+    }
+    section#download div.link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 37px;
+        margin-top: 38px;
+    }
+    section#download {
+        height: 650px;
+    }
+    section#download div.link div.uber_link, div.drive_link {
+        width: 705px;
+    }
+    section#download div.link span {
+        margin-right: 55px;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 355px;
+        justify-content: space-between;
+    }
+    header {
+        height: 15vh;
+    }
+    section.wrapper {
+        max-width: 667px;
+    }
+    section#spotlight div.main {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    section#spotlight div.right {
+        display: none;
+    }
+    section#spotlight div.left {
+        padding-top: 81px;
+    }
+    section#spotlight div.left h1 {
+        margin-bottom: 33px;
+        font-size: 71px;
+    }
+    section#spotlight {
+        height: 69vh;
+    }
+    header div.left ul li button {
+        font-size: 18px;
+    }
+    header h1 {
+        font-size: 32px;
+        margin-top: -12px;
+    }
+    header ul h1::first-letter{
+        font-size: 47px;
+        font-weight:300;
+    }
+    header div.right ul li button {
+        font-size: 18px;
+    }
+
+    section#about div.top, .middle, .bottom {
+        width: 100%;
+        height: 127vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    section#about div.top div.right {
+        padding-top: 0px;
+    }
+    section#about div.top div.left {
+        width: 558px;
+        padding-top: 80px;
+        height: 449px;
+    }
+
+    section.wrapper2 {
+        max-width: 586px;
+        margin: 0 auto;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        margin-bottom: 17px;
+    }
+    section#about div.top div.right p, div.middle div.left p {
+        font-size: 17px;
+    }
+    section#about div.top div.right span {
+        margin-top: 12px;
+    }
+
+    section#about div.middle {
+        padding-top: 0px;
+    }
+    section#about div.middle div.left {
+        padding-top: 0px;
+        height: 148px;
+    }
+    section#about div.middle div.right {
+        padding-top: 193px;
+    }
+    section#about div.middle div.left span {
+        margin-top: 15px;
+    }
+    section#about {
+        height: 346vh;
+    }
+    section#about div.middle{
+        height: 104vh;
+    }
+    section#about div.bottom {
+        padding-top: 116px;
+        height: 600px;
+    }
+    section#about div.bottom div.right {
+        padding-top: 10px;
+    }
+    footer div.list {
+        margin-top: 44px;
+        display: flex;
+        gap: 65px;
+    }
+    footer {
+        height: 112vh;
+    }
+    section#about div.bottom div.right h2 {
+        margin-bottom: 10px;
+    }
+    section#about div.bottom div.right p {
+        margin-bottom: 12px;
+    }
+}
+@media screen and (min-width:640px) and (max-width:767px){
+    footer div.arrow {
+        display: none;
+    }
+    footer div.details { 
+        width: 600px;
+        align-items: center;
+        gap: 8px;
+    }
+    section#download div.link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 38px;
+    }
+    section#download {
+        height: 650px;
+    }
+    section#download div.link div.uber_link, div.drive_link {
+        width: 705px;
+    }
+    section#download div.link span {
+        margin-right: 0px;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 355px;
+        justify-content: space-between;
+    }
+    header {
+        height: 15vh;
+    }
+    section.wrapper {
+        max-width: 560px;
+    }
+    section#spotlight div.main {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    section#spotlight div.right {
+        display: none;
+    }
+    section#spotlight div.left {
+        padding-top: 28px;;
+    }
+    section#spotlight div.left h1 {
+        margin-bottom: 16px;
+        font-size: 57px;
+    }
+    section#spotlight {
+        height: 56vh;
+    }
+    header div.left ul li button {
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 29px;
+        margin-top: -12px;
+    }
+    header ul h1::first-letter{
+        font-size: 42px;
+        font-weight:300;
+    }
+    header div.right ul li button {
+        font-size: 15px;
+    }
+
+    section#about div.top, .middle, .bottom {
+        width: 100%;
+        height: 109vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        border-bottom: 1px solid black;
+    }
+    section#about div.top div.right {
+        padding-top: 0px;
+    }
+    section#about div.top div.left {
+        width: 498px;
+        padding-top: 80px;
+        height: 449px;
+    }
+
+    section.wrapper2 {
+        max-width: 499px;
+        margin: 0 auto;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 49px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 17px;
+    }
+    section#about div.top div.right p, div.middle div.left p {
+        font-size: 16px;
+    }
+    section#about div.top div.right span {
+        margin-top: 12px;
+    }
+
+    section#about div.middle {
+        padding-top: 50px;
+    }
+    section#about div.middle div.left {
+        padding-top: 0px;
+        height: 148px;
+    }
+    section#about div.middle div.right {
+        padding-top: 73px;
+        width: 498px;
+    }
+    section#about div.middle div.left span {
+        margin-top: 15px;
+    }
+    section#about {
+        height: 323vh;
+    }
+    section#about div.middle{
+        height: 104vh;
+    }
+    section#about div.bottom {
+        padding-top: 58px;
+        height: 778px;
+    }
+    section#about div.bottom div.right {
+        padding-top: 19px;
+    }
+    footer div.list {
+        margin-top: 44px;
+        display: flex;
+        gap: 65px;
+    }
+    footer {
+        height: 115vh;
+    }
+    section#about div.bottom div.right h2 {
+        margin-bottom: 10px;
+    }
+    section#about div.bottom div.right p {
+        margin-bottom: 12px;
+    }
+    section#about div.bottom div.left {
+        width: 498px;
+        height: 422px;
+    }
+    section#download div.link div.image {
+        width: 123px;
+        height: 116px;
+        padding: 17px;
+    }
+    section#download div.link img.right_arrow {
+        display:none;
+    }
+}
+@media screen and (min-width:540px) and (max-width:639px){
+    footer div.arrow {
+        display: none;
+    }
+    footer div.details { 
+        width: 480px;
+        align-items: center;
+        gap: 8px;
+    }
+    section#download div.link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 38px;
+    }
+    section#download {
+        height: 457px;
+    }
+    section#download div.link div.uber_link, div.drive_link {
+        width: 393px;
+        padding-left: 54px;
+        height: 90px;
+        border: 1px solid black;
+    }
+    section#download div.link div.uber_link:hover {
+        box-shadow: 0px 0px 10px 0px grey;
+    }
+    section#download div.link div.drive_link:hover {
+        box-shadow: 0px 0px 10px 0px grey;
+    }
+    section#download div.link span {
+        margin-right: 16px;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 355px;
+        justify-content: space-between;
+    }
+    header {
+        height: 15vh;
+    }
+    section.wrapper {
+        max-width: 417px;
+    }
+    section#spotlight div.main {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    section#spotlight div.right {
+        display: none;
+    }
+    section#spotlight div.left {
+        padding-top: 28px;;
+    }
+    section#spotlight div.left h1 {
+        margin-bottom: 16px;
+        font-size: 43px;
+    }
+    section#spotlight {
+        height: 56vh;
+    }
+    header div.left ul li button {
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 29px;
+        margin-top: -12px;
+    }
+    header ul h1::first-letter{
+        font-size: 42px;
+        font-weight:300;
+    }
+    header div.right ul li button {
+        font-size: 15px;
+    }
+
+    section#about div.top, .middle, .bottom {
+        width: 100%;
+        height: 93vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        border-bottom: 1px solid black;
+    }
+    section#about div.top div.right {
+        padding-top: 0px;
+    }
+    section#about div.top div.left {
+        width: 410px;
+        padding-top: 35px;
+        height: 385px;
+    }
+
+    section.wrapper2 {
+        max-width: 411px;
+        margin: 0 auto;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 38px;
+        margin-bottom: 17px;
+    }
+    section#about div.top div.right p, div.middle div.left p {
+        font-size: 16px;
+    }
+    section#about div.top div.right span {
+        margin-top: 12px;
+    }
+
+    section#about div.middle {
+        padding-top: 34px;
+    }
+    section#about div.middle div.left {
+        padding-top: 0px;
+        height: 148px;
+    }
+    section#about div.middle div.right {
+        padding-top: 104px;
+        width: 410px;
+    }
+    section#about div.middle div.left span {
+        margin-top: 15px;
+    }
+    section#about {
+        height: 275vh;
+    }
+    section#about div.middle {
+        height: 88vh;
+    }
+    section#about div.bottom {
+        padding-top: 58px;
+        height: 648px;
+    }
+    section#about div.bottom div.right {
+        padding-top: 0px;
+    }
+    footer div.list {
+        margin-top: 44px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 65px;
+    }
+    footer {
+        height: 136vh;
+    }
+    section#about div.bottom div.right h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 29px;
+    }
+    section#about div.bottom div.right p {
+        margin-bottom: 12px;
+    }
+    section#about div.bottom div.left {
+        width: 410px;
+        height: 371px;
+    }
+    section#download div.link div.image {
+        display: none;
+    }
+    section#download div.link img.right_arrow {
+        display: inline;
+    }
+    section#spotlight div.left input {
+        width: 346px;
+        font-size: 15px;
+    }
+    section#spotlight div.left input.place {
+        background-position: 312px center;
+
+    }
+    section#about div.top div.right span {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 241px;
+    }
+    section#about div.middle div.left span {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 311px;
+    }
+    section#download div.link span p {
+        font-size: 17px;
+        display: none;
+    }
+}
+@media screen and (min-width:480px) and (max-width:539px){
+    footer div.arrow {
+        display: none;
+    }
+    footer div.details { 
+        width: 480px;
+        align-items: center;
+        gap: 8px;
+    }
+    section#download div.link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 38px;
+    }
+    section#download {
+        height: 457px;
+    }
+    section#download div.link div.uber_link, div.drive_link {
+        width: 393px;
+        padding-left: 54px;
+        height: 90px;
+        border: 1px solid black;
+    }
+    section#download div.link div.uber_link:hover {
+        box-shadow: 0px 0px 10px 0px grey;
+    }
+    section#download div.link div.drive_link:hover {
+        box-shadow: 0px 0px 10px 0px grey;
+    }
+    section#download div.link span {
+        margin-right: 16px;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 355px;
+        justify-content: space-between;
+    }
+    header {
+        height: 15vh;
+    }
+    section.wrapper {
+        max-width: 355px;
+
+    }
+    section#spotlight div.main {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    section#spotlight div.right {
+        display: none;
+    }
+    section#spotlight div.left {
+        padding-top: 28px;;
+    }
+    section#spotlight div.left h1 {
+        margin-bottom: 16px;
+        font-size: 43px;
+    }
+    section#spotlight {
+        height: 56vh;
+    }
+    header div.left ul li button {
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 29px;
+        margin-top: -12px;
+    }
+    header ul h1::first-letter{
+        font-size: 42px;
+        font-weight:300;
+    }
+    header div.right ul li button {
+        font-size: 15px;
+    }
+
+    section#about div.top, .middle, .bottom {
+        width: 100%;
+        height: 93vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        border-bottom: 1px solid black;
+    }
+    section#about div.top div.right {
+        padding-top: 0px;
+    }
+    section#about div.top div.left {
+        width: 410px;
+        padding-top: 35px;
+        height: 385px;
+    }
+
+    section.wrapper2 {
+        max-width: 411px;
+        margin: 0 auto;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 38px;
+        margin-bottom: 17px;
+    }
+    section#about div.top div.right p, div.middle div.left p {
+        font-size: 16px;
+    }
+    section#about div.top div.right span {
+        margin-top: 12px;
+    }
+
+    section#about div.middle {
+        padding-top: 34px;
+    }
+    section#about div.middle div.left {
+        padding-top: 0px;
+        height: 148px;
+    }
+    section#about div.middle div.right {
+        padding-top: 104px;
+        width: 410px;
+    }
+    section#about div.middle div.left span {
+        margin-top: 15px;
+    }
+    section#about {
+        height: 275vh;
+    }
+    section#about div.middle {
+        height: 88vh;
+    }
+    section#about div.bottom {
+        padding-top: 58px;
+        height: 648px;
+    }
+    section#about div.bottom div.right {
+        padding-top: 0px;
+    }
+    footer div.list {
+        margin-top: 44px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    footer {
+        height: 187vh;
+    }
+    section#about div.bottom div.right h2 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 29px;
+    }
+    section#about div.bottom div.right p {
+        margin-bottom: 12px;
+    }
+    section#about div.bottom div.left {
+        width: 410px;
+        height: 371px;
+    }
+    section#download div.link div.image {
+        display: none;
+    }
+    section#download div.link img.right_arrow {
+        display: inline;
+    }
+    section#spotlight div.left input {
+        width: 346px;
+        font-size: 15px;
+    }
+    section#spotlight div.left input.place {
+        background-position: 312px center;
+
+    }
+    section#about div.top div.right span {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 241px;
+    }
+    section#about div.middle div.left span {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 311px;
+    }
+    section#download div.link span p {
+        font-size: 17px;
+        display: none;
+    }
+    header div.right ul li button.login{
+        margin-left: 87px;
+
+    }
+    footer div.details div.left {
+        display: flex;
+        gap: 27px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:479px){
+    footer div.arrow {
+        display: none;
+    }
+    footer div.details { 
+        width: 360px;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 25px;
+    }
+    section#download div.link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 38px;
+    }
+    section#download {
+        height: 457px;
+    }
+    section#download div.link div.uber_link, div.drive_link {
+        width: 292px;
+        padding-left: 17px;
+        height: 90px;
+        border: 1px solid black;
+        text-align: center;
+    }
+    section#download div.link div.uber_link:hover {
+        box-shadow: 0px 0px 10px 0px grey;
+    }
+    section#download div.link div.drive_link:hover {
+        box-shadow: 0px 0px 10px 0px grey;
+    }
+    section#download div.link span {
+        margin-right: 16px;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header div.main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 355px;
+        justify-content: space-between;
+    }
+    header {
+        height: 15vh;
+    }
+    section.wrapper {
+        max-width: 355px;
+
+    }
+    section#spotlight div.main {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0px;
+        flex-wrap: wrap;
+    }
+    section#spotlight div.right {
+        display: none;
+    }
+    section#spotlight div.left {
+        padding-top: 69px;
+    }
+    section#spotlight div.left h1 {
+        margin-bottom: 11px;
+        font-size: 33px;
+    }
+    section#spotlight {
+        height: 56vh;
+    }
+    header div.left ul li button {
+        font-size: 15px;
+    }
+    header h1 {
+        font-size: 29px;
+        margin-top: -12px;
+    }
+    header ul h1::first-letter{
+        font-size: 42px;
+        font-weight:300;
+    }
+    header div.right ul li button {
+        font-size: 15px;
+    }
+
+    section#about div.top, .middle, .bottom {
+        height: 78vh;
+        display: flex;
+        flex-direction: column;
+        gap: 145px;
+        border-bottom: 1px solid black;
+    }
+    section#about div.top div.right {
+        padding-top: 0px;
+        
+    }
+    section#about div.top div.left {
+        width: 280px;
+        padding-top: 20px;
+        height: 143px;
+    }
+
+    section.wrapper2 {
+        max-width: 281px;
+        margin: 0 auto;
+    }
+    section#about div.top div.right h2, div.middle div.left h2 {
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 17px;
+    }
+    section#about div.top div.right p, div.middle div.left p {
+        font-size: 16px;
+        width: 241px;
+    }
+    section#about div.middle div.left span a {
+        border-bottom: 1px solid rgb(161, 159, 159);
+        width: 170px;
+    }
+    section#about div.top div.right span {
+        margin-top: 12px;
+    }
+
+    section#about div.middle {
+        padding-top: 34px;
+    }
+    section#about div.middle div.left {
+        padding-top: 0px;
+        height: 148px;
+        
+    }
+    section#about div.middle div.left span p {
+        font-size: 16px;
+        width: 170px;
+    }
+    section#about div.middle div.right {
+        padding-top: 22px;
+        width: 280px;
+    }
+    section#about div.middle div.left span {
+        margin-top: 15px;
+    }
+    section#about {
+        height: 233vh;
+    }
+    section#about div.middle {
+        height: 74vh;
+    }
+    section#about div.bottom {
+        padding-top: 44px;
+        height: 570px;
+    }
+    section#about div.bottom div.right {
+        padding-top: 0px;
+        
+    }
+    footer div.list {
+        margin-top: 44px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    footer {
+        height: 194vh;
+    }
+    section#about div.bottom div.right h2 {
+        margin-bottom: 14px;
+        font-size: 22px;
+        line-height: 21px;
+    }
+    section#about div.bottom div.right p {
+        margin-bottom: 12px;
+        width: 277px;
+
+    }
+    section#about div.bottom div.left {
+        width: 280px;
+        height: 179px;
+    }
+    section#download div.link div.image {
+        display: none;
+    }
+    section#download div.link img.right_arrow {
+        display: none;
+    }
+    section#spotlight div.left input {
+        width: 271px;
+        font-size: 15px;
+    }
+    section#spotlight div.left input.place {
+        background-position: 312px center;
+    }
+    section#about div.top div.right span {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 241px;
+        
+        
+    }
+    section#about div.middle div.left span {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 311px;
+        
+    }
+    section#download div.link span p {
+        font-size: 17px;
+        display: none;
+    }
+    header div.right ul li button.login{
+        margin-left: 84px;
+    }
+    footer div.details div.left {
+        display: flex;
+        gap: 27px;
+    }
+    header div.left ul {
+        display: flex;
+        gap: 8px;
+    }
+    footer div.copyright ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        font-size: 13px;
+        width: 100px;
+    }
+    footer div.copyright div.full {
+        display: flex; 
+        flex-direction: column;
+        gap: 11px;
+    }
+    footer div.details div.right {
+        display: flex;
+        flex-direction: column;
+    }
+    section#download div.head h2 {
+        font-size: 29px;
+    }
+    section#about div.middle div.left p {
+        font-size: 16px;
+        width: 291px;
+    }
+    footer div.list h3 {
+        font-size: 20px;
+    }
+    footer div.appstore div.store {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Uber Move';
+    src: url('font/UberMove-Bold.eot');
+    src: local('UberMoveBold'), local('UberMove-Bold'),
+        url('font/UberMove-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/UberMove-Bold.woff2') format('woff2'),
+        url('font/UberMove-Bold.woff') format('woff'),
+        url('font/UberMove-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uber Move';
+    src: url('font/UberMove-Regular.eot');
+    src: local('UberMoveRegular'), local('UberMove-Regular'),
+        url('font/UberMove-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/UberMove-Regular.woff2') format('woff2'),
+        url('font/UberMove-Regular.woff') format('woff'),
+        url('font/UberMove-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uber Move';
+    src: url('font/UberMove-Light.eot');
+    src: local('UberMoveLight'), local('UberMove-Light'),
+        url('font/UberMove-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/UberMove-Light.woff2') format('woff2'),
+        url('font/UberMove-Light.woff') format('woff'),
+        url('font/UberMove-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uber Move';
+    src: url('font/UberMove-Medium.eot');
+    src: local('UberMoveMedium'), local('UberMove-Medium'),
+        url('font/UberMove-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/UberMove-Medium.woff2') format('woff2'),
+        url('font/UberMove-Medium.woff') format('woff'),
+        url('font/UberMove-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
